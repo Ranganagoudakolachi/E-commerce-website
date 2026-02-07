@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    padding:0;
+}
+.nav{
+    background-color: rgb(36, 53, 61);
+    padding: 20px;
+    margin: 0%;
+    text-align: left;
+}
+.nav a{
+    padding: 5px 10px;
+    text-decoration:none ;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+.logo{
+    margin-right: auto;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.amazon{
+    height: 50px;
+    width: 150px;
+    margin-right: 220px;
+}
+
+.nav input{    <center>
+    padding:5px 10px;
+
+    height:30px;
+    width: 700px;
+   
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: medium;
+
+    background-color: aquamarine;
+    outline: none;   
+}
+
+
+
+
+
+
+.nav input:hover{
+    background-color: pink;
+    height:30px;
+    width:700px;
+    transition:1s;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+
+.container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 400px 400px 400px 200px;
+    margin:0px;
+}
+
+.image1{
+    border: 1px solid #000000;
+    width: 140px;
+    height: 280px;
+    padding: 80px;
+    background-color: #d7d2d0;
+    border-radius: 20px;
+}
+
+
+.image1 button{
+    height: 40px;
+    width: 120px;
+    background-color: aquamarine;
+    border-radius:100px ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+.image2{
+    border: 2px solid black;
+    width: 140px;
+    height: 280px;
+    padding: 80px;
+    background-color: lightblue;
+     border-radius: 20px;
+}
+
+.image2 button{
+    height: 40px;
+    width: 120px;
+    background-color: aquamarine;
+    border-radius:100px ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+footer{
+    background color: #131921: ;
+    color:white;
+    text-aline:center;
+    padding:15px;
+    margin-top :40px
+}
+
+
+
